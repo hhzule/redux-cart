@@ -2,7 +2,6 @@ import React from "react";
 import { Product } from "./Products";
 import { Basket } from "./Basket";
 import "./App.css";
-import Header from "./Header";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <Product />
       </div>
 
-      {/* <Basket /> */}
+      <Basket />
     </div>
   );
 }
